@@ -30,8 +30,12 @@ describe('Desafio ClubPetro', () => {
         cy.get('[data-name=expectativa_com_clubpetro]').type('Melhor gerenciamento do posto', {force:true})
         cy.get('._field99 > ._form-fieldset > ._checkbox-radio').contains("Ao informar meus dados").click({force:true})
         cy.get('._field100 > ._form-fieldset > ._checkbox-radio').contains("Desejo").click({force:true})
-        //cy.get('button[type="submit"]').click()
+        
         //Na realização do teste me deparei com um erro de redirecionamento no framework. 
-        //Pesquisei e não encontrei uma solução para o erro, muitas pessoas que utilizam o framework sofrem do mesmo erro        
+        //Pesquisei e não encontrei uma solução para o erro, muitas pessoas que utilizam o framework sofrem do mesmo erro
+        //Segue abaixo a complementação do código para enviar e validar o envio 
+        
+        //cy.get('button[type="submit"]').click()
+        //cy.url().should('include', '/obrigado')               
     });
 });
