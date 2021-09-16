@@ -1,11 +1,12 @@
 # Desafio ClubPetro
-**Desafio para a vaga de analista de testes**
+**Desafio para a vaga de QA**
 
-**Teste automatizados**
-Instalando dependências
+**Instalando dependências**
  - npm i
 
+
 **Rodando o projeto**
+
 Para executar via navegador web
 - npx cypress open 
 
