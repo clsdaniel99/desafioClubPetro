@@ -1,6 +1,10 @@
 # Desafio ClubPetro
 **Desafio para a vaga de analista de testes**
 
+**Teste automatizados**
+- Instalando dependências
+- npm i
+
 Testes realizados nas APIs públicas no Github
 
 Link Postman: https://documenter.getpostman.com/view/17430108/U16qGhWD
@@ -21,3 +25,4 @@ Foi realizado três casos de usos:
 **No cenário do GET**
 - Resumo : Retornar todas as notas ou as mais recentes com o código 200
 - Descrição : Usei o GET das APIs fakes do Swagger na tabela Books e o resultado foi o retorno das notas mais recentes com Status: 200
+
