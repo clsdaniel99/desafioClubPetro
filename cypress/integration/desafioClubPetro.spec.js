@@ -33,5 +33,8 @@ describe('Desafio ClubPetro', () => {
         cy.get('._field99 > ._form-fieldset > ._checkbox-radio').contains("Ao informar meus dados").click()
         cy.get('._field100 > ._form-fieldset > ._checkbox-radio').contains("Desejo").click()
         cy.get('button[type="submit"]').click()
-    });
+        //cy.get('button[type="submit"]').click()
+        //Na realização do teste me deparei com um erro de redirecionamento no framework. 
+        //Pesquisei e não encontrei uma solução para o erro, muitas pessoas que utilizam o framework sofrem do mesmo erro
+        });
 });
